@@ -3,7 +3,7 @@ node_js:
   - 8.0.0
 services:
   - docker
-before_install:
+script:
   - docker-compose -f services.yml up
   - echo "going to sleep"
   - sleep 75
