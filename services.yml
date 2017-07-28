@@ -9,8 +9,8 @@ services:
     ports:
       - 9042:9042
   kafka:
-    image: spotify-kafka
-    build: spotify-kafka/kafka
+    image: docker-kafka
+    build: docker-kafka/kafka
     ports:
       - 9092:9092
       - 2181:2181
