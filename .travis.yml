@@ -3,7 +3,6 @@ node_js:
   - 8.0.0
 services:
   - docker
-script:
-  - docker-compose -f services.yml up
+
 
  
