@@ -8,4 +8,4 @@ script:
   - echo "going to sleep"
   - sleep 75
   - echo "going to execute set up scripts"
-  - ./setup-DB.sh
+ 
