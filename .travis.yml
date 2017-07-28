@@ -8,5 +8,6 @@ before_install:
   - docker-compose -f services.yml up -d
   - sleep 5
   - docker ps
+  - ./setup-DB.sh
 
  
